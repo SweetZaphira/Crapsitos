@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>CRAPS</title>
+    <meta charset="utf-8" />
+    <link rel= "stylesheet" type="text/css" href="css/main.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="js/dados.js"></script>
+</head>
+<body>
+    <div id="ventana" class="lightbox hidden">
+        <div class="login_content">
+            <div id="cerrar" class="close_button">x</div>
+            <p id="mensaje_texto">Mensaje</p>
+        </div>
+    </div>
+    <div id="ejercicio">
+    <div class="lado">
+    <h2> Instrucciones:</h2>
+     <ol>
+        <li> Si en el primer tiro el jugador obtiene 7 u 11, gana la partida.</li>
+        <li> Si en el primer tiro el jugador obtiene 2, 3 o 12, pierde la partida.</li>
+        <li> Si en el primer tiro obtiene  4  5 (cinco), 6, 8, 9, ó 10, establece el punto.</li>
+        <li> El tirador tiene que arrojar los dados tantas veces como sea necesario, hasta obtener el número que busca. Si antes sale el 7, el jugador pierde.</li>
+    </div>
+</body>
+<div class="lado">
+        <h2 id="Cabeza">CRAPS</h2>
+    <div id="contenedor_dados">
+    <div id="dado1" class="dado"></div>
+    <div id="dado2" class="dado"></div>
+</div>
+<div class="lado">
+    <input type="button" value="Lanzar" id="boton_tirar">
+    <a href="creditos.html">Créditos</a>
+</div>
+</body>
+</html>
